@@ -2,6 +2,22 @@
   "sheet": "MirageStoreSetItem",
   "definitions": [
     {
+      "index": 0,
+      "name": "MainHand",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1,
+      "name": "OffHand",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
       "index": 2,
       "name": "Head",
       "converter": {
